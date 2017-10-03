@@ -1,0 +1,49 @@
+/* START - Responsive Typography */
+html {
+    font-size: 10px;
+}
+
+@media (min-width: 576px) {
+    html {
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 992px) {
+    html {
+        font-size: 24px;
+    }
+}
+/* END - Responsive Typography */
+
+nav a, button {
+    min-height: 48px;
+    min-width: 48px;
+}
+
+.br {
+    margin-top: 16px;
+}
+
+.color-primary {
+    color: #2d3c49;
+}
+
+.color-secondary {
+    color: #7d97ad;
+}
+
+.hr {
+    border-bottom: 0.25vw solid #7d97ad;
+}
+
+p {
+    margin: 0;
+}
+
